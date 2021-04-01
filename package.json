@@ -1,0 +1,22 @@
+{
+  "name": "proyectochile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "serve ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatLMD/testEcomsur.git"
+  },
+  "author": "KLMD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KatLMD/testEcomsur/issues"
+  },
+  "homepage": "https://github.com/KatLMD/testEcomsur#readme",
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
+}

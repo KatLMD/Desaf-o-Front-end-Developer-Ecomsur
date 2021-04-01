@@ -36,13 +36,13 @@ button {
   color: white;
 }
 
-.page-content {
+/* .page-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   border: 1px solid rgb(54, 54, 54);
 }
-
+*/
 .product-container {
   margin: 20px;
   padding: 2px 16px;

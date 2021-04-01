@@ -19,6 +19,9 @@
 .right{
     justify-content:flex-end;
 }
+body{
+  width:100%
+}
 .content {
     width: 100%;
     padding-right: 25px;
