@@ -1,6 +1,6 @@
 /* HEADER */
-.header-items{
-    height: 100%;
+.header-items {
+  height: 100%;
 }
 /* HEADER */
 
@@ -14,11 +14,11 @@ button {
 .page-nav {
   /* background-color: rgb(94, 94, 92);
   border: 1px solid black; */
- /*  position: relative; */
+  /*  position: relative; */
 }
 
 .page-nav h1 {
- /*  margin: 20px; */
+  /*  margin: 20px; */
 }
 
 .button-checkout {
@@ -79,24 +79,18 @@ button {
   color: white;
 }
 
-.cover{
-    width:100%;
-
+.cover {
+  width: 100%;
 }
 
-
 @media (min-width: 576px) {
-    
-  }
-  
-  @media (min-width: 768px) {
-    
-  }
-  
-  @media (min-width: 992px) {
-    
-  }
-  
-  @media (min-width: 1200px) {
-   
-  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
