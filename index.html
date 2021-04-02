@@ -17,40 +17,68 @@
     <header class="cover primary-background primary-text">
         <div class="row between content header-items">
             <div class="col-4">
-                <h1>Mi tiendaKAT</h1>
+                <img class="logo-img" src="/img/logo.png" alt="logo">
             </div>
             <div class="col-4 row  center">
-                <b>Promociones</b>
+                <b></b>
             </div>
             <div class="col-4 row right">
-                <button class="">COMPRAR</button>
+                <button id="cart_button" class="cart-button">
+                   <span id="cart_cant" class="cart-cant"></span>
+                    <img class="cart-img" src="img/cart.png" alt="">
+                </button>
             </div>
         </div>
     </header>
 
     <main class="content">
-        <div class="row ">
-            <div class="col row center">
-                <div class="col-4">
-                    <label for="pelicula">Busca tu pelicula:</label>
+        <section id="section_busqueda" >
+            <div class="row ">
+                <div class="col row center busqueda-component">
+                    <div class="col-12 busqueda-item">
+                        <label class="" for="pelicula">Busca tu pelicula:</label>
+                    </div>
+                    <div class="col-12 busqueda-item">
+                        <input id="pelicula" type="text" placeholder="Ejem: Avergers" >
+                    </div>
+                    <div class="col-12 busqueda-item busqueda-button">
+                        <button id="buscar">Buscar</button>
+                    </div>
                 </div>
-                <div class="col-4">
-                    <input id="pelicula" type="text" placeholder="Ejem: Avergers" value="avengers">
-                </div>
-                <div class="col-4 row right">
-                    <button id="buscar">Buscar</button>
-                </div>
-                
-                
-                
             </div>
-        </div>
-        <div class="product-container">
-            <h3>Nombre</h3>
-            <img id="poster" src="img/paloma.png" alt="">
-            <h1>$50</h1>
-            <button class="button-add">Agregar</button>
-        </div>
+            <div class="product-container">
+                <img id="poster" src="img/portada.png" alt="">
+                <div class="row between product-container-details">
+                    <h1 id="title"></h1>
+                    <h1 id="price"></h1>
+                </div>
+               
+                
+                <button class="button-add" id="button_add" style="display:none">Agregar</button>
+            </div>
+        </section>
+        <section id="section_cart" style="display:none">
+            <div class="product-container">
+                <h1 class="cart-list-title title row center">Tu compra</h1>
+                <div class="cart-list-message row center"   id="cart_list_message">
+                    <span >
+                        No tienes peliculas elegidas en tu carrito de compras
+                    </span>
+                </div>
+                <div id="cart_list_details" >
+                    <ul class="cart-list" id="cart_list">
+                    </ul>
+                    <div class="row right">
+                        <button  class="button-add">
+                            Pagar
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row center">
+                <button id="seguir_button">Seguir comprando</button>
+            </div>
+        </section>
     </main>
 
     <footer class="content">

@@ -2,7 +2,83 @@
 .header-items {
   height: 100%;
 }
+.cart-img{
+  width: 30px;
+}
+.cart-cant{
+  position: absolute;
+  color: wheat;
+  font-weight: 900;
+  font-size: 18px;
+  top: 28px;
+ /*  right: 55px; */
+  background: red;
+  width: auto;
+  padding: 0 5px;
+  border-radius: 8px;
+}
+.cart-button{
+  background-color: transparent;
+
+}
+.logo-img{
+  height: 50px;
+  width: auto;
+}
 /* HEADER */
+
+/* Busqueda component */
+
+.busqueda-component {
+  display: grid;
+}
+.busqueda-button{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Busqueda component */
+
+.busqueda-component > div{
+  margin-bottom: 20px;
+}
+/* Busqueda component */
+
+
+/* product */
+
+.product-container {
+  margin: 20px;
+  padding: 10px 16px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  display: grid;
+}
+.product-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.product-container-details {
+  /*  margin-bottom: 10px;
+   margin-left: 20px; */
+/*    height: 20px; */
+   margin-bottom: 12px;
+ }
+ .product-container-details >h1{
+   font-weight: 700;
+   font-size: 18px;
+ }
+
+
+ .product-container img {
+  height: 60vh;
+  width: auto;
+  padding: 20px;
+  margin: auto;
+}
+
+
+/* product */
 
 button {
   font-size: 16px;
@@ -11,67 +87,23 @@ button {
   padding: 10px 2opx;
 }
 
-.page-nav {
-  /* background-color: rgb(94, 94, 92);
-  border: 1px solid black; */
-  /*  position: relative; */
-}
 
-.page-nav h1 {
-  /*  margin: 20px; */
-}
 
-.button-checkout {
-  background-color: white;
-  color: black;
-  border: 2px solid #2634ee;
-  transition-duration: 0.4s;
-  position: absolute;
-  right: 15px;
-  bottom: 15px;
-}
 
-.button-checkout:hover {
-  background-color: #2634ee;
-  color: white;
-}
 
-/* .page-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  border: 1px solid rgb(54, 54, 54);
-}
-*/
-.product-container {
-  margin: 20px;
-  padding: 2px 16px;
-  position: relative;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  background-color: white;
-}
 
-.product-container:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
 
-.product-container img {
-  width: 200px;
-}
-
-.product-container h1 {
-  margin-bottom: 10px;
-  margin-left: 20px;
-}
 
 .button-add {
   background-color: white;
   color: black;
   border: 2px solid #4caf80;
   transition-duration: 0.4s;
-  position: absolute;
+  width: 200px;
+  margin-left: auto;
+  /* position: absolute;
   right: 15px;
-  bottom: 10px;
+  bottom: 10px; */
 }
 
 .button-add:hover {
@@ -83,14 +115,67 @@ button {
   width: 100%;
 }
 
+/* section cart */
+.title{
+  font-size: 28px ;
+  font-weight: 900;
+}
+.cart-list-title{
+  margin-bottom: 40px;
+}
+.cart-list-message>span{
+  margin-bottom: 20px;
+}
+.cart-list>li{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.cart-list-total{
+  border-top:solid gray 1px;
+  padding-top: 20px;
+  font-size: 20px!important;
+  font-weight: 900!important;
+}
+
+/* section cart */
+
 @media (min-width: 576px) {
+    /* HEADER */
+
+/* HEADER */
+
+/* Busqueda component */
+
+.busqueda-component {
+  display: flex;
+}
+.busqueda-component > div {
+  width: 50%;
+  flex-basis: auto;
+}
+.busqueda-component>div:not(:first-child){
+  width: auto;
+  display: flex;
+}
+
+
+/* Busqueda component */
 }
 
 @media (min-width: 768px) {
+
 }
 
 @media (min-width: 992px) {
 }
 
 @media (min-width: 1200px) {
+}
+
+
+input{
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
