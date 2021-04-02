@@ -33,13 +33,6 @@ width:100%
   .content {
     max-width: 540px;
   }
- .product-container img {
-  height: 60vh;
-  width: 90%;
-  padding: 20px;
-  margin: auto;
-}
-
 }
 
 @media (min-width: 768px) {

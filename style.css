@@ -71,8 +71,8 @@
 
 
  .product-container img {
-  height: 60vh;
-  width: auto;
+  height: auto;
+  width: 200px;
   padding: 20px;
   margin: auto;
 }

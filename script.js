@@ -72,7 +72,7 @@ const llamarApi = async (titulo) => {
         redirect: 'follow'
     };
 
-    fetch(`http://www.omdbapi.com/?t=${titulo}&apikey=e8f70e93`, requestOptions)
+    fetch(`https://www.omdbapi.com/?t=${titulo}&apikey=e8f70e93`, requestOptions)
         .then(response => response.json())
         .then(result => {
             addItemState('movieView', result)
